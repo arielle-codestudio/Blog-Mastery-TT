@@ -23,11 +23,20 @@
   max-width: 1040px;
 }
 
+// Download
 .download {
   background: url('../images/download-background.jpg') center center no-repeat;
   background-size: cover;
 }
 
+// Map
+.map iframe {
+  left: 0;
+  top: 0;
+  height: 400px;
+  width: 100%;
+  border: none;
+}
 
 @media(max-width: 1000px) {
   .hero .image-container {
